@@ -23,6 +23,11 @@ namespace P09MvcBootstrapPlugins.Controllers
             return View();
         }
 
+        public IActionResult Table()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
